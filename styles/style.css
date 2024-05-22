@@ -1,0 +1,58 @@
+/* General Styles */
+body {
+  background-image: url('../assets/images/ai-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #343a40;
+}
+
+.navbar-brand:hover {
+  color: #007bff;
+}
+
+.nav-link {
+  color: #343a40;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+/* Container Styles */
+.container {
+  margin-top: 20%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.container h1,
+.container p {
+  color: #ffffff;
+}
+
+.container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-size: 1.2rem;
+}
+
+/* Utility Classes */
+.text-white {
+  color: #ffffff;
+}
